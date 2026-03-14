@@ -2,13 +2,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.profile {
-    width: 40px;
-    height: 40px;
-}
 
-header {
+.profile {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     flex-direction: row;
 }
