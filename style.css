@@ -3,9 +3,37 @@ body {
 }
 
 
-.profile {
+header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
+    max-height: 110px;
+    align-items: center;
+    background-color: #f75163;
+    color: rgb(29, 1, 1);
+}
+
+
+
+.links a {
+    color: #fad694;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.profile-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 98px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 95px;
+
 }
