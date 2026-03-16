@@ -1,5 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
 }
 
 
@@ -8,13 +9,17 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-    max-height: 110px;
     align-items: center;
     background-color: #f75163;
     color: rgb(29, 1, 1);
 }
 
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
 
 .links a {
     color: #fad694;
@@ -29,11 +34,19 @@ header {
 
 .profile-name {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 98px;
+    font-size: 80px;
 }
 
 .profile-picture {
     width: 100px;
     height: 95px;
+
+}
+
+.headline {
+    font-size: 17px;
+    max-width: 250px;
+    background-color: #ff876f;
+    max-height: 110px;
 
 }
