@@ -50,3 +50,13 @@ footer {
     max-height: 110px;
 
 }
+
+.project-photo {
+    width: 250px;
+    height: 200px;
+}
+
+.project-1 {
+    max-width: 500px;
+    background-color: #ff876f;
+}
