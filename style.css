@@ -52,11 +52,36 @@ footer {
 }
 
 .project-photo {
-    width: 250px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .project-1 {
-    max-width: 500px;
+    max-width: max-content;
     background-color: #ff876f;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.project-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.project-info {
+    max-width: 300px;
+}
+
+.project-title a {
+
+    text-decoration: none;
 }
