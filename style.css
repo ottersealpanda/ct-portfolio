@@ -46,7 +46,7 @@ footer {
 .headline {
     font-size: 17px;
     max-width: 250px;
-    background-color: #ff876f;
+    background-color: #fad694;
     max-height: 110px;
 
 }
@@ -68,8 +68,8 @@ footer {
 
 .project-1 {
     /*ask mr lo russo if correct and how to do steps its NOT WORKING!!!!!!!!*/
-    width: 400px;
-    background-color: #ff876f;
+    width: 60%;
+    background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 5px;
@@ -79,8 +79,8 @@ footer {
 }
 
 .project-2 {
-    width: 700px;
-    background-color: #ff876f;
+    width: 70%;
+    background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 5px;
@@ -91,8 +91,8 @@ footer {
 }
 
 .project-3 {
-    width: 1000px;
-    background-color: #ff876f;
+    width: 80%;
+    background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 5px;
@@ -103,8 +103,8 @@ footer {
 }
 
 .project-4 {
-    width: 1300px;
-    background-color: #ff876f;
+    width: 90%;
+    background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 5px;
@@ -115,19 +115,21 @@ footer {
 }
 
 .project-5 {
-    width: 1600px;
-    background-color: #ff876f;
+    width: 100%;
+    background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 5px;
-    border-width: 3px;
+    /* border-width: 3px;
     border-color: black;
+    border-style: solid; */
+    border: 3px solid black;
     /*change colour later*/
 
 }
 
 .container-projects {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: column;
     align-items: start;
     font-size: 18px;
@@ -137,6 +139,7 @@ footer {
 
 .project-content {
     max-width: max-content;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
