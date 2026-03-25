@@ -19,6 +19,7 @@ footer {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    background-image: url(vintage-paper-background.jpg);
 }
 
 .links a {
@@ -72,9 +73,8 @@ footer {
     background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 5px;
-    border-width: 3px;
-    border-color: black;
+    border-radius: 0px 5px 5px;
+    border: 1.5px solid black;
     /*change colour later*/
 }
 
@@ -83,21 +83,19 @@ footer {
     background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 5px;
-    border-width: 3px;
-    border-color: black;
+    border-radius: 0px 5px 5px;
+    border: 1.5px solid black;
     /*change colour later*/
 
 }
 
 .project-3 {
     width: 80%;
-    background-color: #fad694;
+    background-color: #e1e1e1;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 5px;
-    border-width: 3px;
-    border-color: black;
+    border-radius: 0px 5px 5px;
+    border: 1.5px solid black;
     /*change colour later*/
 
 }
@@ -107,9 +105,8 @@ footer {
     background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 5px;
-    border-width: 3px;
-    border-color: black;
+    border-radius: 0px 5px 5px;
+    border: 1.5px solid black;
     /*change colour later*/
 
 }
@@ -119,13 +116,8 @@ footer {
     background-color: #fad694;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 5px;
-    /* border-width: 3px;
-    border-color: black;
-    border-style: solid; */
-    border: 3px solid black;
-    /*change colour later*/
-
+    border-radius: 0px 5px 5px;
+    border: 1.5px solid black;
 }
 
 .container-projects {
@@ -134,7 +126,9 @@ footer {
     align-items: start;
     font-size: 18px;
     width: 100vw;
-
+    display: flex;
+    gap: 20px;
+    background-image: url(vintage-paper-background.jpg);
 }
 
 .project-content {
@@ -149,7 +143,13 @@ footer {
     width: fit-content;
 }
 
-.project-title a {
-
+.project-title {
+    color: #7b550f;
     text-decoration: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.project-title:hover {
+    text-decoration: underline;
 }
