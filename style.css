@@ -10,7 +10,7 @@ header {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    background-color: #f75163;
+    background-color: #d8e2dc;
     color: rgb(29, 1, 1);
 }
 
@@ -19,11 +19,11 @@ footer {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    background-image: url(vintage-paper-background.jpg);
+    background-color: #d8e2dc;
 }
 
 .links a {
-    color: #fad694;
+    color: #fec5bb;
     text-decoration: none;
     gap: 20px;
     font-size: 18px;
@@ -45,10 +45,11 @@ footer {
 }
 
 .headline {
-    font-size: 17px;
+
     max-width: 250px;
-    background-color: #fad694;
+    background-color: #fae1dd;
     max-height: 110px;
+    font-size: 17px;
 
 }
 
@@ -70,54 +71,54 @@ footer {
 .project-1 {
     /*ask mr lo russo if correct and how to do steps its NOT WORKING!!!!!!!!*/
     width: 60%;
-    background-color: #fad694;
+    background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 0px 5px 5px;
-    border: 1.5px solid black;
+    border: 3px solid #d8e2dc;
     /*change colour later*/
 }
 
 .project-2 {
     width: 70%;
-    background-color: #fad694;
+    background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 0px 5px 5px;
-    border: 1.5px solid black;
+    border: 3px solid #d8e2dc;
     /*change colour later*/
 
 }
 
 .project-3 {
     width: 80%;
-    background-color: #e1e1e1;
+    background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 0px 5px 5px;
-    border: 1.5px solid black;
+    border: 3px solid #d8e2dc;
     /*change colour later*/
 
 }
 
 .project-4 {
     width: 90%;
-    background-color: #fad694;
+    background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 0px 5px 5px;
-    border: 1.5px solid black;
+    border: 3px solid #d8e2dc;
     /*change colour later*/
 
 }
 
 .project-5 {
     width: 100%;
-    background-color: #fad694;
+    background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 0px 5px 5px;
-    border: 1.5px solid black;
+    border: 3px solid #d8e2dc;
 }
 
 .container-projects {
@@ -126,9 +127,11 @@ footer {
     align-items: start;
     font-size: 18px;
     width: 100vw;
+    /*ask mr lo russo*/
     display: flex;
     gap: 20px;
-    background-image: url(vintage-paper-background.jpg);
+    background-image: url(sand-background-option-2.jpeg);
+    background-size: cover;
 }
 
 .project-content {
@@ -144,7 +147,7 @@ footer {
 }
 
 .project-title {
-    color: #7b550f;
+    color: #f2aea2;
     text-decoration: none;
     gap: 20px;
     font-size: 18px;
