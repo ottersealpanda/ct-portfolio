@@ -1,6 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
+
 }
 
 
@@ -74,8 +75,9 @@ footer {
     background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 0px 5px 5px;
-    border: 3px solid #d8e2dc;
+    border-radius: 10px;
+    border: 3px solid #fae1dd;
+    padding: 5px;
     /*change colour later*/
 }
 
@@ -84,8 +86,9 @@ footer {
     background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 0px 5px 5px;
-    border: 3px solid #d8e2dc;
+    border-radius: 10px;
+    border: 3px solid #fae1dd;
+    padding: 5px;
     /*change colour later*/
 
 }
@@ -95,8 +98,9 @@ footer {
     background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 0px 5px 5px;
-    border: 3px solid #d8e2dc;
+    border-radius: 10px;
+    border: 3px solid #fae1dd;
+    padding: 5px;
     /*change colour later*/
 
 }
@@ -106,8 +110,9 @@ footer {
     background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 0px 5px 5px;
-    border: 3px solid #d8e2dc;
+    border-radius: 10px;
+    border: 3px solid #fae1dd;
+    padding: 5px;
     /*change colour later*/
 
 }
@@ -117,8 +122,9 @@ footer {
     background-color: #fae1dd;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 0px 5px 5px;
-    border: 3px solid #d8e2dc;
+    border-radius: 10px;
+    border: 3px solid #fae1dd;
+    padding: 5px;
 }
 
 .container-projects {
@@ -132,6 +138,8 @@ footer {
     gap: 20px;
     background-image: url(sand-background-option-2.jpeg);
     background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .project-content {
@@ -147,12 +155,49 @@ footer {
 }
 
 .project-title {
-    color: #f2aea2;
+    color: #f69f8f9d;
     text-decoration: none;
     gap: 20px;
-    font-size: 18px;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .project-title:hover {
     text-decoration: underline;
+}
+
+/* Start of css specifically for project webpage.*/
+
+.contents {
+    color: black;
+    width: 100vw;
+    padding: 17px;
+    background-image: url(sand-background-option-2.jpeg);
+    background-size: cover;
+
+}
+
+.information-contents {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #c0bdda;
+    width: 80%;
+    height: max-content;
+    border-radius: 10px;
+    border-width: 3px;
+    padding: 10px;
+}
+
+.about-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #fae1dd;
+    width: max-content;
+    border-radius: 20px;
+    padding: 10px;
+
 }
