@@ -133,7 +133,6 @@ footer {
     flex-direction: column;
     align-items: start;
     font-size: 18px;
-    width: 100vw;
     display: flex;
     gap: 20px;
     padding-top: 20px;
@@ -203,4 +202,6 @@ footer {
 .gallery-photos {
     width: 23%;
     height: 200px;
+    border: 10px solid#c0bdda;
+    border-radius: 10px;
 }
