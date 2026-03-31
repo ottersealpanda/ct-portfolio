@@ -25,7 +25,7 @@ footer {
 }
 
 .links a {
-    color: #fec5bb;
+    color: black;
     text-decoration: none;
     gap: 20px;
     font-size: 18px;
@@ -152,7 +152,7 @@ footer {
 }
 
 .project-title {
-    color: #f4897600;
+    color: black;
     text-decoration: none;
     gap: 20px;
 
@@ -163,6 +163,7 @@ footer {
 
 .project-title:hover {
     text-decoration: underline;
+    color: black;
 }
 
 /* Start of css specifically for project webpage.*/
