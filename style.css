@@ -152,7 +152,7 @@ footer {
 }
 
 .project-title {
-    color: #f69f8f9d;
+    color: #f489769d;
     text-decoration: none;
     gap: 20px;
 
@@ -192,7 +192,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     font-weight: bold;
-    background-color: #fae1dd;
+    background-color: #fae1ddee;
     width: max-content;
     border-radius: 20px;
     padding: 10px;
